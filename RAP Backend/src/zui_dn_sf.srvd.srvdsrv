@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition for Print Preview - SF'
+define service ZUI_DN_SF {
+  expose ZZR_DNHEADER_SF    as DeliveryHeader;
+  expose ZZR_DNITEM_SF      as DeliveryItem;
+  expose ZZC_DN_PDF_PREVIEW as DnPdfPreview;
+}
